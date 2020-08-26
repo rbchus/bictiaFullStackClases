@@ -1,0 +1,57 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.cambio{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(230, 138, 18);
+}
+
+.caja{
+display: grid;
+grid-template-columns: repeat(3,200px);
+}
+.miniCaja{
+  height: 100px;
+  display: flex;
+  justify-content:center;
+  border: 1px solid black;  
+  cursor: pointer;
+}
+
+.color0 {
+    background-color: rgb(108, 65, 225);
+}
+.color1 {
+    background-color: rgb(137, 225, 65);
+}
+.color2 {
+    background-color: rgb(161, 65, 225);
+}
+.color3 {
+    background-color: rgb(39, 49, 10);
+}
+.color4 {
+    background-color: rgb(185, 118, 77);
+}
+.color5 {
+    background-color: rgb(51, 58, 78);
+}
+.color6 {
+    background-color: rgb(225, 65, 65);
+}
+.color7 {
+    background-color: rgb(65, 225, 212);
+}
+.color8 {
+    background-color: rgb(41, 151, 96);
+}
+.color9 {
+    background-color: rgb(225, 65, 212);
+}
+.color10 {
+    background-color: rgb(225, 169, 65);
+}
