@@ -105,3 +105,16 @@ padre.addEventListener("click",(e)=>{
  e.target.classList.add('color'+ num)
 })
 
+
+var lista = document.getElementById("lista");
+var agregar = document.getElementById("agregar");
+
+agregar.addEventListener('click', ()=>{
+    
+    var texto = document.getElementById("texto").value;
+
+    var etiqueta = document.createElement("li");
+    etiqueta.textContent = texto;
+    lista.appendChild(etiqueta);
+
+})
