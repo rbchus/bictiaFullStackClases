@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Taller Logica JS</title>
+</head>
+
+<body>
+
+    <header>
+     
+        <div class="bg-secondary d-flex justify-content-center align-items-center "> 
+            <h1 class="m-3">TALLER LOGICA JS</h1>
+        </div>
+
+    </header>
+   
+    <main></main>
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                        aria-controls="collapseOne">
+                        #1 Arreglo de nombres
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <!-- -->
+                    <div class="container mt-3 mb-3 border bg-light p-3">
+                        <p> Crear un algoritmo que almacene una lista de nombres en un arreglo y luego ordenarlos
+                            alfabéticamente. No se sabe la cantidad de datos que se ingresarán. Se ingresa una lista de
+                            nombres (la lista termina cuando se ingresa un espacio en blanco) si se repite un nombre,
+                            el sistema debe mostrar un mensaje indicando al usuario que no debe repetir nombres y
+                            continuar con la lista.</p>
+                    </div>
+
+                    <div class="container mt-3 mb-3 border bg-light p-3 d-flex align-items-center justify-content-center">
+                        <div class="p-2"> <input type="text" id="textoIn"> </div>
+                        
+                        <button class="btn btn-secondary" id="botonIn"> Insertar</button>
+                    </div>
+
+                    <div class="container mt-3 mb-3 border bg-light p-3 d-flex align-items-center justify-content-center">
+                           <ol id="lista"></ol>
+                    </div>
+                    <!-- -->
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                        aria-expanded="false" aria-controls="collapseTwo">
+                        #2 Palabra al reves
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                   <!-- -->
+                   <div class="container mt-3 mb-3 border bg-light p-3">
+                    <p> Crear un script que muestre una palabra o frase ingresada al revés y que indique cuántas
+                        letras y espacios tiene.</p>       
+                </div>
+
+                <div class="container mt-3 mb-3 border bg-light p-3 d-flex align-items-center justify-content-center">
+                    <div class="p-2"> <input type="text" id="fraseIn"> </div>
+                    
+                    <button class="btn btn-secondary" id="botonFraseIn"> Insertar</button>
+                </div>
+
+                <div class="container mt-3 mb-3 border bg-light p-3 d-flex  flex-column align-items-center justify-content-center">
+                          <p id="tamano"></p>
+                          <p id="espacios"></p>
+                          <p id="reves"></p>
+                </div>
+
+                   <!-- -->
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                        aria-expanded="false" aria-controls="collapseThree">
+                        #3 Frase separador Gion
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <!-- -->
+                    <div class="container mt-3 mb-3 border bg-light p-3"> 
+                        <p> Realiza un script que pida una cadena de texto y la muestre poniendo el signo – entre cada
+                            carácter. Si la cadena contiene un espacio, éste debe ser reemplazado con el siguiente
+                            símbolo - -</p>
+                    </div>
+
+                    <div class="container mt-3 mb-3 border bg-light p-3 d-flex align-items-center justify-content-center">
+                        <div class="p-2"> <input type="text" id="cadenaIn"> </div>
+                        
+                        <button class="btn btn-secondary" id="botonCadenaIn"> Insertar</button>
+                    </div>
+    
+                    <div class="container mt-3 mb-3 border bg-light p-3 d-flex  flex-column align-items-center justify-content-center">
+                              <p id="salida"></p>
+                          
+                    </div>
+                    <!-- -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+     
+         <div class="bg-secondary d-flex justify-content-center align-items-center"> 
+             <h3 class="m-3"> by: Jesus Ropero B</h3>
+         </div>
+
+    </footer>
+
+
+    <script src="./logic.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
