@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+	<title> - Registro - </title>
+   <!--Made with love by Mutiullah Samim -->
+   
+	<!--Bootsrap 4 CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!--Custom styles-->
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+<div class="container">
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+			<div class="card-header">
+                <h3>Registrate</h3>
+                
+                <div class="d-flex justify-content-end social_icon">
+                    <a href="index.html"> <span><i class="fas fa-home "></i></span></a>
+					
+				
+                </div>
+                
+				
+			</div>
+			<div class="card-body">
+				<form id="formularioRegistro">
+					
+					<div class="ocultar" id="alerta"><div id="alertaMensaje" class="alert alert-danger d-flex justify-content-center "></div></div>
+					
+
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-user-alt"></i></span>
+						</div>
+						<input type="text" class="form-control" placeholder="Nombre" required id="usuarioIn">
+                    </div>
+                    
+                    <div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-user-plus"></i></span>
+						</div>
+						<input type="text" class="form-control" placeholder="Apellido " required id="apellidoIn">
+                    </div>
+
+                    <div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-at"></i></span>
+						</div>
+						<input type="email" class="form-control" placeholder="Correo Electronico " required id="correoIn">
+                    </div>
+
+                    <div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-phone"></i></span>
+						</div>
+						<input type="number" class="form-control" placeholder="Telefono Movil " required id="telefonoIn">
+                    </div>
+
+
+                    <div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-user-circle"></i></span>
+						</div>
+						<input type="text" class="form-control" placeholder="Usuario Login " required id="nicknameIn">
+                    </div>
+                    
+                    
+                    <div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-key"></i></span>
+						</div>
+						<input type="text" class="form-control" placeholder="Constraseña" id="passwordIn">
+					</div>
+                    
+                    
+					<div class="form-group">
+						<input type="submit" value="Enviar" class="btn float-right login_btn" id="botonRegistroIn">
+					</div>
+				</form>
+			</div>
+		
+		</div>
+	</div>
+</div>
+
+<script src="./assets/js/registrarUsuarios.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+crossorigin="anonymous"></script>
+
+</body>
+</html>
