@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Reto Anselo</title>
+
+	<!-- para bootrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<!-- para alerttfy-->
+	<link rel="stylesheet" type="text/css" href="./assets/css/alertify.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/themes/default.css">
+
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+
+<body id="body" class="body">
+	<div class="containerTodo body" >
+
+		<div class="col-11 col-md-7 col-lg-5 contenedorAnselo imgFondo">
+			<div class="txtTitulo"> Letras </div>
+			<div class="resultado" id="resultadoLetras"></div>
+
+			<div class="txtTitulo"> Numeros</div>
+			<div class="resultado" id="resultadoNumeros"></div>
+
+			<div class="txtTitulo"> Cambiar Tema</div>
+			<div class="contendorTemas">
+
+				<div class="contenedorSwitches">
+
+					<div class="custom-control custom-switch">
+						<input type="checkbox" class="custom-control-input" id="customSwitch1">
+						<label class="custom-control-label" for="customSwitch1">Oscuro</label>
+					  </div>
+
+					  <div class="custom-control custom-switch">
+						<input type="checkbox" class="custom-control-input" id="customSwitch2">
+						<label class="custom-control-label" for="customSwitch2">Retro</label>
+					  </div>
+
+				</div>
+			</div>
+
+			<div class="contenedorBotones">
+				<div><button class="btn" onclick="anselo('a')" id="btn_01"> A-1 </button></div>
+				<div><button class="btn" onclick="anselo('b')" id="btn_02"> B-2 </button></div>
+				<div><button class="btn" onclick="anselo('c')" id="btn_03"> C-3 </button></div>
+			</div>
+
+			<div class="contenedorBotones">
+				<div><button class="btn" onclick="anselo('d')" id="btn_04"> D-4 </button></div>
+				<div><button class="btn" onclick="anselo('e')" id="btn_05"> E-5 </button></div>
+				<div><button class="btn" onclick="anselo('f')" id="btn_06"> F-6 </button></div>
+			</div>
+
+			<div class="contenedorBotones">
+				<div><button class="btn" onclick="anselo('g')" id="btn_07"> G-7 </button></div>
+				<div><button class="btn" onclick="anselo('h')" id="btn_08"> H-8 </button></div>
+				<div><button class="btn" onclick="anselo('i')" id="btn_09"> I-9 </button></div>
+			</div>
+
+			<div class="contenedorBotones">
+				<div><button class="btn" id="btnCalculadora"> :) </button></div>
+				<div><button class="btn" onclick="anselo('j')" id="btn_10"> J-0 </button></div>
+				<div><button class="btn" id="btnReset">  R </button></div>
+			</div>
+
+
+
+		</div>
+
+		<footer>
+     
+			<div class="d-flex justify-content-center align-items-center mt-5"> 
+				<h3 class="m-3"> by: Jesus Ropero B</h3>
+			</div>
+   
+	   </footer>
+
+		<script src="./assets/js/anselo.js"></script>
+
+		<!-- para alertufy-->
+		<script src="./assets/js/jquery-3.2.1.min.js"></script>
+		<script src="./assets/js/alertify.js"></script>
+
+		<!-- para boostrap-->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+			crossorigin="anonymous"></script>
+
+</body>
